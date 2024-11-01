@@ -159,6 +159,7 @@ section {
     font-size: 1.3em;
     font-weight: 900;
     margin: 10px;
+    margin-bottom: 15px;
 }
 
 
@@ -174,8 +175,8 @@ section {
     background-color: #fff;
     width: 21.25em;
     box-shadow: 0 5px 50px rgba(90, 104, 165, 0.35);
-    border-radius: 10px;
-    border: 1px solid #fff;
+    border-radius: 25px;
+    border: 5px solid #fff;
     margin: 25px;
     word-wrap: break-word;
     min-height: 12cm;
@@ -222,6 +223,22 @@ section {
     margin-top: 10px;
 }
 
+.Project_Details_Button {
+    text-decoration: none;
+    color: #5f71c0;
+    background-color: #131c46;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    transition: all 0.5s;
+}
+
+.Project_Details_Button:hover {
+    color: #82b0ff;
+    background-color: #131c46;
+    transform: scale(1.1);
+}
+
 
 .Contact_Btn {
     background-color: #131c46;
@@ -257,9 +274,91 @@ section {
 
 footer {
     background-color: #131c46;
-    color: #82b0ff;
+    color: #5f71c0;
     padding: 2em;
     display: flex;
     justify-content: space-between;
+}
+
+footer span {
+    color: #82b0ff;
+}
+
+
+/* Full Project View */
+
+.Full_Project_View {
+    width: auto;
+    height: auto;
+}
+
+.Full_Project_Image {
+    margin: auto;
+    border-radius: 25px;
+    border: 5px solid #5f71c0;
+}
+
+.Full_Project_Text {
+    font-size: 2.5em;
+    margin-top: 5px;
+    color: #131c46;
+}
+
+.Full_Project_P {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #131c46;
+}
+
+.Full_Project_P a {
+    font-size: 1.2em;
+    color: #131c46;
+    text-decoration: none;
+
+    transition: all 0.5s;
+}
+
+.Full_Project_P a:hover {
+    font-size: 1.3em;
+    color: #5f71c0;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .Main {
+        padding: 150px 50px;
+    }
+
+    #About {
+        padding: 150px 50px;
+    }
+
+    .Card {
+        min-width: 300px;
+    }
+
+    .Project_Card {
+        min-width: 300px;
+    }
+
+    .Full_Project_View {
+        padding: 100px 20px;
+        width: 100%;
+    }
+
+    .Full_Project_Image {
+        width: 85%;
+        height: 85%;
+    }
+
+    .Full_Project_P {
+        width: 85%;
+    }
 
 }
