@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="Logo">M. Soud </a>
+        <a href="index.html" class="Logo">M. Soud </a>
         <nav class="Nav">
             <a href="#About">About</a>
             <a href="#Projects">Projects</a>
@@ -25,7 +25,7 @@
 
     <section class="Main">
         <div>
-            <h2>Hello , I'm Mostafa Soud <br> <span>Graphic Designer</span></h2>
+            <h2>Hello , I'm Mostafa Soud.<br> <span>Graphic Designer</span></h2>
             <h3>I design graphics for people</h3>
             <a href="#Projects" class="Main_Btn">See my work</a>
 
@@ -41,7 +41,7 @@
         <h2 class="Title">About me</h2>
 
         <h3 class="About_Text">
-            I'm Mostafa Mohammed Soud , From Egypt.
+            I'm Mostafa Mohammed Soud , From Egypt , Cairo.
             <br>
             I work as a Graphic Designer and a Social Media Specialist in Al-Warsha INC.
         </h3>
@@ -88,10 +88,10 @@
                 <div class="Project_Details">
                     <p class="Project_Name">Broken Time</p>
                     <strong class="Project_Title">
-                        <span>Lots_Of_Text_About_The_ProjectLots_Of_Text_About_The_Project</span>
+                        <span>Broken Time is a single player platformer game which you play in a world where you don't die , but go back in time.</span>
                     </strong>
                     <strong class="Project_Title">
-                        <a href="#Project_Details">More Details</a>
+                        <a href="Broken_Time.html" class="Project_Details_Button">More Details</a>
                     </strong>
                 </div>
             </div>
@@ -104,10 +104,10 @@
                 <div class="Project_Details">
                     <p class="Project_Name">3D Phone Animation</p>
                     <strong class="Project_Title">
-                        <span>Lots_Of_Text_About_The_ProjectLots_Of_Text_About_The_Project</span>
+                        <span>A 3D phone animation featuring professional design and animation.</span>
                     </strong>
                     <strong class="Project_Title">
-                        <a href="#Project_Details">More Details</a>
+                        <a href="3D_Phone_Animation.html" class="Project_Details_Button">More Details</a>
                     </strong>
                 </div>
             </div>
@@ -121,10 +121,10 @@
                     <p class="Project_Name">Modern 3D Kitchen</p>
 
                     <strong class="Project_Title">
-                        <span>Lots_Of_Text_About_The_ProjectLots_Of_Text_About_The_Project</span>
+                        <span>A modern realistic kitchen design having accurate design mathcing the real design.</span>
                     </strong>
                     <strong class="Project_Title">
-                        <a href="#Project_Details">More Details</a>
+                        <a href="Realistic_3D_Kitchen.html" class="Project_Details_Button">More Details</a>
                     </strong>
                 </div>
             </div>
@@ -144,6 +144,7 @@
                 <div class="Cards_Info">
                     <h3>Reach me Via Phone</h3>
                     <p>+20 106 404 1990</p>
+                    <button onclick="Copy_Phone_Number_Function()" class="Contact_Btn">Copy number</button>
                 </div>
             </div>
 
@@ -154,7 +155,7 @@
                 
                 <div class="Cards_Info">
                     <h3>Contact Me on Facebook</h3>
-                    <a href="https://www.facebook.com/profile.php?id=100024785881294" class="Contact_Btn" target="_blank">click here</a>
+                    <a href="https://www.facebook.com/profile.php?id=100024785881294" class="Contact_Btn" target="_blank">Click here</a>
                 </div>
             </div>
 
@@ -165,7 +166,7 @@
                 
                 <div class="Cards_Info">
                     <h3>Watch Me on Youtube</h3>
-                    <a href="https://www.youtube.com/@mostafa_mohammad_soud" class="Contact_Btn" target="_blank">click here</a>
+                    <a href="https://www.youtube.com/@mostafa_mohammad_soud" class="Contact_Btn" target="_blank">Click here</a>
                 </div>
             </div>
 
@@ -176,7 +177,7 @@
                 
                 <div class="Cards_Info">
                     <h3>Follow Me on X (Twitter)</h3>
-                    <a href="https://x.com/owikipedya" class="Contact_Btn" target="_blank">click here</a>
+                    <a href="https://x.com/owikipedya" class="Contact_Btn" target="_blank">Click here</a>
                 </div>
             </div>
             
@@ -193,6 +194,21 @@
         </div>
     </footer>
 
+
+    <!-- Copy Phone Number Function -->
+
+    <script>
+        function Copy_Phone_Number_Function() {
+        // Get the text field
+        var copyText = "+20 106 404 1990";
+
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText);
+
+        // Alert the copied text
+        alert("تم نسخ الرقم");
+        }
+    </script>
 
 </body>
 </html>
