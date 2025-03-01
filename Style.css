@@ -298,6 +298,14 @@ footer span {
     border: 5px solid #5f71c0;
 }
 
+.Samller_Full_Project_Image {
+    margin: auto;
+    border-radius: 25px;
+    border: 5px solid #5f71c0;
+    width: 500px;
+    height: 500px;
+}
+
 .Full_Project_Text {
     font-size: 2.5em;
     margin-top: 5px;
@@ -332,11 +340,11 @@ footer span {
     }
 
     .Main {
-        padding: 150px 50px;
+        padding: 150px 70px;
     }
 
     #About {
-        padding: 50px 50px;
+        padding: 50px 70px;
     }
 
     .Card {
